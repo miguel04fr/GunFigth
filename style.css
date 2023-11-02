@@ -10,17 +10,28 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #252525;
+    overflow: hidden; /* Evita que se muestren barras de desplazamiento */
+    background-color: black;
+    width: 100vw;
+    background-image: url("./1000_F_382143446_2Avk0FMNlGgVRjYw9eGeqHV0l6CkqiYj-transformed\ \(1\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: larger;
+    
 }
 
 .container-game{
-    height: 25rem;
-    width: 25rem;
+    height: 29rem;
+    width: 34rem;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: -91px;
+    margin-right: -7px;
+    border-radius: 35px;
 }
 
 .container-game header{
@@ -51,5 +62,8 @@ main div{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
+
+
+
+  

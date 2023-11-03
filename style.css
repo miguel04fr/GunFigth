@@ -17,6 +17,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     background-color: black;
     overflow: hidden;   
    
@@ -39,11 +40,34 @@ body{
     height: 480px;
     width: 640px;
     background-color: rgba(0, 0, 0, 0.389);
+=======
+    overflow: hidden; /* Evita que se muestren barras de desplazamiento */
+    background-color: black;
+    width: 100vw;
+    background-image: url("./1000_F_382143446_2Avk0FMNlGgVRjYw9eGeqHV0l6CkqiYj-transformed\ \(1\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: larger;
+    
+}
+
+.container-game{
+    height: 29rem;
+    width: 34rem;
+    background-color: black;
+>>>>>>> eb0bb48854ae9225552908233ea7ebc4c67fb89c
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+<<<<<<< HEAD
     overflow: hidden;
+=======
+    margin-top: -91px;
+    margin-right: -7px;
+    border-radius: 35px;
+>>>>>>> eb0bb48854ae9225552908233ea7ebc4c67fb89c
 }
 
 .container-game header{
@@ -76,6 +100,7 @@ main div{
     align-items: center;
 }
 
+<<<<<<< HEAD
 .menu {
     margin-left: 431px;
     margin-top: 40px;
@@ -238,3 +263,8 @@ main div{
         left: 70%;
     }
 }
+=======
+
+
+  
+>>>>>>> eb0bb48854ae9225552908233ea7ebc4c67fb89c
